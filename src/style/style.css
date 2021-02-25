@@ -2,7 +2,7 @@
 
 body {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 
 .game__title {
@@ -26,4 +26,36 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.game__container .quiz {
+  font-size: 4rem;
+  color: #364fc7;
+}
+
+.game__container form {
+  margin: 4rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.game__container input {
+  width: 20%;
+  height: 100%;
+}
+
+.game__container .game__info {
+  margin-bottom: 2rem;
+}
+
+.game__container button {
+  width: 10%;
+  height: 5%;
+  background-color: #364fc7;
+  color: #ffffff;
+}
+
+.game__container .game__info .left__time {
+  margin-right: 1rem;
 }
