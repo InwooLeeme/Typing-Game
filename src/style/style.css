@@ -59,3 +59,43 @@ body {
 .game__container .game__info .left__time {
   margin-right: 1rem;
 }
+
+.game__result__container {
+  width: 100%;
+}
+
+.game__result {
+  width: 20rem;
+  height: 20rem;
+  background-color: #1c7ed6;
+  border-radius: 5px;
+  color: #ffffff;
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.game__result > h1,
+.game__result > h2 {
+  padding: 2rem 0;
+  font-size: 2rem;
+}
+
+.game__result button {
+  width: 50%;
+  height: 25%;
+  background-color: #364fc7;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
